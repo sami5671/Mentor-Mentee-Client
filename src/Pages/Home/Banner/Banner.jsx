@@ -1,9 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import bannerVideo from "../../assets/Video/video.mp4";
-import Container from "../../Shared/Container";
-import RegisterButton from "../../Components/RegisterButton/RegisterButton";
-import CountDown from "../../Components/Counter/CountDown";
+import bannerVideo from "../../../assets/Video/video.mp4";
+
+import Container from "../../../Shared/Container";
+import RegisterButton from "../../../Components/RegisterButton/RegisterButton";
+import CountDown from "./../../../Components/Counter/CountDown";
 
 const Banner = () => {
   const [text] = useTypewriter({
